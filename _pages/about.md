@@ -11,7 +11,7 @@ profile:
     <p>📧 hyeon93 [at] yonsei.ac.kr</p>
     <p>📍 C607, 3rd Eng. Bldg, 50 Yonsei-ro, Seodaemun-gu, Seoul, Korea, 03722
     <p align="center"><a href="https://drive.google.com/file/d/1BdeR633bTYXYoMqY3X3wTh67CG6bsjDa/view?usp=sharing"><b>CV</b></a>
-    | <a href="https://scholar.google.com/citations?hl=ko&user=DqLYh2QAAAAJ"><b>Google Scholar</b></a>
+    | <a href="https://scholar.google.com/citations?user=DqLYh2QAAAAJ"><b>Google Scholar</b></a>
     | <a href="https://github.com/suhyeonlee"><b>Github</b></a>
     </p>
 news: false  # includes a list of news items
