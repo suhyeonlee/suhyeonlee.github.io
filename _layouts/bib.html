@@ -103,7 +103,21 @@
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ ", " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryhighlight }}{%- endcapture -%}
+          {%- if entry.impactfactor %}
+            {%- capture entryimpactfactor -%}<br><b> ({{entry.impactfactor}})</b> {%- endcapture -%}
+          {%- else -%}
+            {%- capture entryimpactfactor -%}{%- endcapture -%}
+          {%- endif %}
+          {%- if entry.earlyaccess -%}
+            {%- if entry.earlyaccess == "true" -%}
+              {%- capture entryearlyaccess -%}{{ " (Accepted)" }}{%- endcapture -%}
+            {%- else -%}
+              {%- capture entryearlyaccess -%}{%- endcapture -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- capture entryearlyaccess -%}{%- endcapture -%}
+          {%- endif -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryearlyaccess }}{{ entryimpactfactor }}{{ entryhighlight }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
