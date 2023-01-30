@@ -117,7 +117,7 @@
           {%- else -%}
             {%- capture entryearlyaccess -%}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryearlyaccess }}{{ entryimpactfactor }}{{ entryhighlight }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryearlyaccess }}{{ entryimpactfactor }}{{ entryoral }}{{ entryhighlight }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
