@@ -8,8 +8,8 @@ profile:
   align: right
   image: suhyeonlee.jpg
   address: >
-    <p>📧 hyeon93 [at] yonsei.ac.kr</p>
-    <p>📍 22, Daewangpangyo-ro 712beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, 13488, Korea
+    <p align="center">📧 hyeon93 [at] yonsei.ac.kr</p>
+    <p align="center">📍 22, Daewangpangyo-ro 712beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, 13488, Korea
     <p align="center"><a href="https://drive.google.com/file/d/1BdeR633bTYXYoMqY3X3wTh67CG6bsjDa/view?usp=sharing"><b>CV</b></a>
     | <a href="https://scholar.google.com/citations?user=DqLYh2QAAAAJ"><b>Google Scholar</b></a>
     | <a href="https://github.com/suhyeonlee"><b>Github</b></a>
